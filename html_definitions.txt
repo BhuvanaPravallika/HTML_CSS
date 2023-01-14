@@ -1,0 +1,60 @@
+img have only opening tag and no closing tag.img has attributes src(source)we add link in this and alt attribute is used to add text, this will be helpful when fails to load.
+anchor tag is used to add links bu using href attribute which help us to navigate to new website or webpage based on link we provided and target attribute is used to for example , '_blank'  is used to display your link in new tab.
+The figure element represents self-contained content and will allow you to associate an image with a caption.A figure caption (figcaption) element is used to add a caption to describe the image contained within the figure element. 
+In form tag , action attribute is used for where the form data should be sent ie., to which company or website.
+type attribute is used to add type of data ie., text,number,password and so on.
+In forms, name is used In order for a form's data to be accessed by the location specified in the action attribute, you must give the text field a name attribute and assign it a value to represent the data being submitted. Placeholder text is used to give people a hint about what kind of information to enter into an input.'required' attribute is used as mandatory field or sometime user forget to enter at that time it will be useful. 'id' attribute is used to uniquely identify,once the a value assigned to attribute it cannot be used for other .
+The fieldset element is used to group related inputs and labels together in a web form. fieldset elements are block-level elements, meaning that they appear on a new line.
+The legend element acts as a caption for the content in the fieldset element. It gives users context about what they should enter into that part of the form.
+In html open tag, if u write lang="eng" means which says that language is english.
+if we write,All pages should begin with <!DOCTYPE html>. This special string is known as a declaration and ensures the browser tries to meet industry-wide specifications. 
+padding is the space between content and border.padding can be done left,right,top,bottom.
+instead of writting padding-left,padding-right,.. we can simply write by padding and assign pixels
+padding:10px 10px 10px 10px
+
+Combinaors/selectors:
+1)Descendant selector(space):matches all the elements that are descendent of specified element.
+2)child Selector(>):matches all elements that are children of a specified element.
+3)Adjacent Sibiling(+):select an elemnt that is directly after another specific element
+4)General Sibiling (~):select all elements that are next sibiling of specific element.
+CSS Transistion: Allows change the color from given period of time called css transistion
+properties:
+transistion
+transistion-delay
+transistion -duration
+transistion-timing-function
+transistion-property
+transistion-timing-functiong:used to determine speed of the curve
+ease *--->slw start then fast end slow-default
+linear-->same speed
+ease-in-->slow start
+ease-out-->slow end
+ease-in-out-->slow start or slow end
+
+
+
+								javascript
+Javascript: is used to create dynamic webpages.It is a pure Synchronous language.
+To declare we use three keywords, they are 
+let , var , const
+syntax:
+var variable_name=value;
+let  variable_name=value;
+const  variable_name=value;
+Difference between let and var is let cannnot be redeclared and var can be redeclared and updated.
+var-->redeclare and reupdated
+let-->cannot redeclared and can updated
+const--> cannot redeclared and updated
+scope of var is global and let & const are block level scope.
+Javascript is a dynamic language that automatically converts related type and understands.
+Node js is a engine that drives our javascript.
+Data types:
+number
+string
+boolean
+undefined
+null
+var a; --> this is undefined
+var a=null;
+*As soon as we write js code it takes screen shot consists global execution. It consists of memory and code. where memory consists of variables and in code part code is executed.For every function global execution is created.
+Animation:changing  from one style to another.
